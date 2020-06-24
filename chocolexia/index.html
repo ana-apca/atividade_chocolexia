@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chocolexia</title>
+
+    <!-- Favicon que fica na aba do navegador -->
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/1451/1451322.svg" type="image/svg" sizes="16x16">
+
+    <!--  Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <!-- Css da turma -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <!-- Menu da turma -->
+    <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img class="icone-menu" src="https://image.flaticon.com/icons/svg/1451/1451322.svg" alt="Imagem de chocolate">
+        <a class="navbar-brand" href="#">CHOCOLEXIA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#historia">História <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#momento">Momentos e o Chocolate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#trufas">Trufas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ingredientes">Ingredientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#poesia">Chocolate & Poesia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- slider da turma -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://a-static.besthdwallpaper.com/barra-de-chocolate-papel-de-parede-2560x1080-2881_14.jpg"
+                    class="d-block w-100" alt="Mais uma imagem de chocolate">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Chocolate com nuts</h5>
+                    <p>Te deixa mais feliz!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.wallpaperscraft.com/image/chocolate_candy_sweets_106254_2560x1080.jpg"
+                    class="d-block w-100" alt="Mais um chocolate">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Novo normal, chocolate anormal!</h5>
+                    <p>Para lidar com o novo normal, nada melhor do que o nosso chocolate especial Chocolexia! Nossos
+                        amêndoas são cuidadosamente escolhidas para proporcionar a sensação de conforto e tranquilidade
+                        que você provavelmente deve estar precisando!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.wallpaperscraft.com/image/chocolate_cookies_dessert_sweet_glaze_112727_2560x1080.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>A versatilidade do chocolate</h5>
+                    <p>O chocolate é a sobremesa preferida de muitos brasileiros. Pesquisa realizada em 2016 pela
+                        Dunnhumby, empresa especializada em ciência do consumidor, revela que anualmente, cada
+                        brasileiro consome, em média, 2,5 kg de chocolate – o equivalente a 16 barras. O Sul é a região
+                        do país onde as pessoas mais comem chocolate (4,5 kg/ano).</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- segundo bloco -->
+    <div class="container bloco-dois" id="historia">
+        <div class="card text-center">
+            <div class="card-header">
+                Um pouco de história
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Do cacau ao chocolate</h5>
+                <img class="img-fluid" src="https://www.infoescola.com/wp-content/uploads/2020/01/cacau-793125286.jpg"
+                    alt="Imagem de cacau.">
+                <p class="card-text mt-5">
+                    O cacau é a principal matéria-prima do chocolate, feito por meio da torra e moagem das suas amêndoas
+                    secas em processo industrial ou caseiro. Outros subprodutos do cacau incluem sua polpa, suco,
+                    geleia, destilados finos e sorvete. </p>
+                <p class="card-text">
+                    Pertencente à família Malvaceae, o cacaueiro é originário da chuvosa Bacia do rio Amazonas, na
+                    América do Sul.[1] Em ambientes sombreados de floresta e sem poda humana, sua altura pode chegar a
+                    20 metros, contudo, em condições de cultivo usualmente sua altura varia de 3 a 5 metros.[2]
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Cacau" class="btn btn-dark">Fonte</a>
+            </div>
+            <div class="card-footer text-muted">
+                Em algum momento da pandemia em 2020, com o novo NORMAL!
+            </div>
+        </div>
+    </div>
+
+    <!-- terceiro bloco -->
+    <div class="card bg-dark text-white bloco-tres" id="momento">
+        <img src="https://a-static.besthdwallpaper.com/dia-dos-namorados-chocolates-e-rosas-vermelhas-papel-de-parede-2560x1080-13286_14.jpg"
+            class="card-img" alt="Chocolate e Flor">
+        <div class="card-img-overlay text-center mt-5">
+            <h1 class="card-title">Para Sempre Chocolate!</h1>
+            <p class="card-text">Em qualquer tempo, chocolate.</p>
+            <p class="card-text">Seja para consumo ou para presente, para distração ou sobremesa, que seja de chocolate,
+                e se a vida
+                estiver uma barra, que seja de chocolate.</p>
+            <p class="card-text">Em meados de 2020 no novo Normal</p>
+        </div>
+    </div>
+
+    <!-- quarto bloco -->
+    <div class="container bloco-quatro" id="trufas">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1553452118-621e1f860f43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+                        class="card-img-top" alt="Imagem de trufas">
+                    <div class="card-body">
+                        <h5 class="card-title">Trufas</h5>
+                        <p class="card-text">O chocolate é um alimento feito com base na amêndoa fermentada e torrada do
+                            cacau. A partir dos
+                        </p>
+                        <a href="#" class="btn btn-dark">Fonte</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1575&q=80"
+                        class="card-img-top" alt="Mais doce">
+                    <div class="card-body">
+                        <h5 class="card-title">Trufas</h5>
+                        <p class="card-text">Sua origem remonta às civilizações pré-colombianas da América Central.</p>
+                        <a href="#" class="btn btn-dark">Fonte</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1545015451-f05567aa6bcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+                        class="card-img-top" alt="Imgem de Trufas">
+                    <div class="card-body">
+                        <h5 class="card-title">Trufas</h5>
+                        <p class="card-text">Descobrimentos, foi levado para a Europa, onde se popularizou,
+                            especialmente a partir dos
+                            séculos XVII e XVIII.</p>
+                        <a href="#" class="btn btn-dark">Fonte</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- quinto bloco -->
+    <div class="card bg-dark text-white bloco-tres bloco-cinco" id="ingredientes">
+        <img src="https://s1.1zoom.me/b4939/776/Sweets_Chocolate_Nuts_522230_1920x1080.jpg" class="card-img"
+            alt="Chocolate e cacau">
+        <div class="card-img-overlay text-center mt-5">
+            <h1 class="card-title">Os melhores ingredientes</h1>
+            <p class="card-text">A seleção dos ingredientes no preparo dos chocolates pode mudar completamente o
+                resultado final.</p>
+            <p class="card-text"> A partir dessa escolha, vamos mexer com as sensações e a experiência de quem for
+                experimentá-los.</p>
+            <p class="card-text">Em meados de 2020 no novo Normal</p>
+        </div>
+    </div>
+
+    <!-- sexto bloco -->
+    <div class="container bloco-seis" id="poesia">
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="https://p0.piqsels.com/preview/281/935/614/chocolate-hand-crunch-nestle.jpg"
+                        class="card-img" alt="Imagem de chocolate">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Para todas as horas!</h5>
+                        <p class="card-text">O chocolate pode servir para diferentes momentos, desde uma sobremesa, até
+                            um presente para alguém importante. Deixe sua vida mais doce, coma mais chocolate, dê
+                            chocolate para alguém que seja importante para você. Pois assim, a sua vida pode se tornar
+                            mais leve e alegre.</p>
+                        <p class="card-text"><small class="text-muted">~Atualizado em 06/06/2020</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate e a poesia</h5>
+                        <p class="card-text">Se a poesia é o alimento da alma, o chocolate é a sobremesa.</p>
+                        <p class="card-text"><small class="text-muted">~Atualizado em 06/06/2020</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://ideiaspresentes.com/wp-content/uploads/2018/04/20-ideias-criativas-de-presentes-com-chocolate-para-namoradoa04.jpg"
+                        class="card-img" alt="Imagem de chocolate e poesia">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d262630.80782562675!2d-109.59059965177218!3d-27.098929247338795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m0!4m5!1s0x9947f017a8d4ae2b%3A0xbbe5b3edc02a2db6!2sEaster%20Island%2C%20Valpara%C3%ADso%2C%20Chile!3m2!1d-27.112723!2d-109.34968649999999!5e0!3m2!1sen!2sbr!4v1591469339108!5m2!1sen!2sbr"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <p class="card-text mt-5">
+                        Q.ta da Paineira, São Paulo - SP, 03150-100
+
+                    </p>
+                    <p class="card-text">
+                        Concato: +55 48 8989565669
+                    </p>
+                    <p class="card-text">
+                        E-mail: querochocolate@chocolexia.com
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <a class="a-rodape" href="https://www.facebook.com/">
+                        <i class="fa fa-facebook"></i>
+                        FACEBOOK
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <img src="https://pbs.twimg.com/profile_images/1118955364337311744/TzxWz4qP_400x400.png"
+                        class="img-fluid img-rodape" alt="Imgem de Trufas">
+
+
+                </div>
+            </div>
+    </footer>
+
+</body>
+
+
+</html>
